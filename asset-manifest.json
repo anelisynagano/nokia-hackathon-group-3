@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/nokia-hackathon-group-3/static/css/main.d91e3964.chunk.css",
+    "main.js": "/nokia-hackathon-group-3/static/js/main.febbbe29.chunk.js",
+    "main.js.map": "/nokia-hackathon-group-3/static/js/main.febbbe29.chunk.js.map",
+    "runtime-main.js": "/nokia-hackathon-group-3/static/js/runtime-main.3a612f80.js",
+    "runtime-main.js.map": "/nokia-hackathon-group-3/static/js/runtime-main.3a612f80.js.map",
+    "static/js/2.f75b9e4c.chunk.js": "/nokia-hackathon-group-3/static/js/2.f75b9e4c.chunk.js",
+    "static/js/2.f75b9e4c.chunk.js.map": "/nokia-hackathon-group-3/static/js/2.f75b9e4c.chunk.js.map",
+    "index.html": "/nokia-hackathon-group-3/index.html",
+    "precache-manifest.704e2534eb89aaa451847b5334062583.js": "/nokia-hackathon-group-3/precache-manifest.704e2534eb89aaa451847b5334062583.js",
+    "service-worker.js": "/nokia-hackathon-group-3/service-worker.js",
+    "static/css/main.d91e3964.chunk.css.map": "/nokia-hackathon-group-3/static/css/main.d91e3964.chunk.css.map",
+    "static/js/2.f75b9e4c.chunk.js.LICENSE.txt": "/nokia-hackathon-group-3/static/js/2.f75b9e4c.chunk.js.LICENSE.txt",
+    "static/media/4g.svg": "/nokia-hackathon-group-3/static/media/4g.8ea04229.svg",
+    "static/media/Flashlight-512.png": "/nokia-hackathon-group-3/static/media/Flashlight-512.0d50c294.png",
+    "static/media/NokiaPureHWeb_Bd.otf": "/nokia-hackathon-group-3/static/media/NokiaPureHWeb_Bd.ce77b4a8.otf",
+    "static/media/NokiaPureHWeb_Lt.otf": "/nokia-hackathon-group-3/static/media/NokiaPureHWeb_Lt.9b44b8c1.otf",
+    "static/media/NokiaPureHWeb_Rg.otf": "/nokia-hackathon-group-3/static/media/NokiaPureHWeb_Rg.bfe70034.otf",
+    "static/media/NokiaPureTWeb_Bd.ttf": "/nokia-hackathon-group-3/static/media/NokiaPureTWeb_Bd.d3eadc8d.ttf",
+    "static/media/NokiaPureTWeb_Lt.ttf": "/nokia-hackathon-group-3/static/media/NokiaPureTWeb_Lt.abb1b26d.ttf",
+    "static/media/NokiaPureTWeb_Rg.ttf": "/nokia-hackathon-group-3/static/media/NokiaPureTWeb_Rg.536160e8.ttf",
+    "static/media/clean-battery.svg": "/nokia-hackathon-group-3/static/media/clean-battery.0217201b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a612f80.js",
+    "static/js/2.f75b9e4c.chunk.js",
+    "static/css/main.d91e3964.chunk.css",
+    "static/js/main.febbbe29.chunk.js"
+  ]
+}
