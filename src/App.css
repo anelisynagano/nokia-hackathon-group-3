@@ -1,0 +1,340 @@
+.filter {
+	width: 25%;
+	margin: auto;
+	padding: 20px;
+}
+
+@font-face {
+	font-family: 'NokiaHeading';
+	font-weight: 700;
+	src: url(./fonts/NokiaPureHWeb_Bd.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'NokiaHeading';
+	font-weight: 400;
+	src: url(./fonts/NokiaPureHWeb_Rg.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'NokiaHeading';
+	font-weight: 200;
+	src: url(./fonts/NokiaPureHWeb_Lt.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'NokiaText';
+	font-weight: 700;
+	src: url(./fonts/NokiaPureTWeb_Bd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'NokiaText';
+	font-weight: 400;
+	src: url(./fonts/NokiaPureTWeb_Rg.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'NokiaText';
+	font-weight: 200;
+	src: url(./fonts/NokiaPureTWeb_Lt.ttf) format('truetype');
+}
+
+body {
+	background: #001135;
+}
+
+.App {
+	background: #ffffff;
+	width: 100%;
+	margin: auto;
+}
+
+.navbar {
+	width: 100%;
+	padding: 24px 72px 24px 72px;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+
+.navbar img {
+	width: 105px;
+}
+
+.titleWrapper {
+	position: relative;
+	width: 100%;
+	background: #001135;
+	height: 600px;
+	overflow: hidden;
+}
+
+.titleWrapper img {
+	width: 100%;
+	opacity: 0.65;
+	position: absolute;
+	top: -35%;
+}
+
+.titleTextWrapper {
+	color: #ffffff;
+	position: absolute;
+	top: 20%;
+	padding: 0px 72px 0px 72px;
+	margin: auto;
+}
+
+.titleWrapper h1 {
+	font-family: 'NokiaHeading', sans-serif;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 104px;
+	margin: 48px 0px 48px 0px;
+}
+
+.titleWrapper span {
+	font-family: 'NokiaText', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.phoneList {
+	margin: 72px 0px 72px 0px;
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+	justify-content: space-around;
+}
+
+.carouselPhone {
+	width: 256px;
+	display: table;
+	text-align: center;
+	font-family: 'NokiaHeading', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.carouselImage {
+	width: 100%;
+}
+
+.carousel .slide {
+	width: 256px !important;
+}
+
+.bannersWrapper {
+	width: 100%;
+	background: #edf2f5;
+	padding: 48px 72px 72px 72px;
+	box-sizing: border-box;
+}
+
+.banner {
+	padding: 72px;
+	position: relative;
+	height: 624px;
+	box-sizing: border-box;
+	margin-bottom: 32px;
+}
+
+#banner1 {
+	background: #001135;
+}
+
+#banner2 {
+	background: #8190c9;
+	padding-left: 378.666px;
+}
+
+#banner3 {
+	background: #ff3154;
+}
+
+#banner1 .bannerImage {
+	width: 33.333%;
+	height: 640px;
+	position: absolute;
+	right: -72px;
+	top: 40px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#banner2 .bannerImage {
+	width: 33.333%;
+	height: 640px;
+	position: absolute;
+	left: -72px;
+	top: -72px;
+	overflow: hidden;
+}
+
+#banner3 .bannerImage {
+	width: 33.333%;
+	height: 640px;
+	position: absolute;
+	right: -72px;
+	top: 40px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.bannerImage img {
+	height: 100%;
+}
+
+#banner1 .bannerContent {
+	display: flex;
+	position: absolute;
+	top: 25%;
+}
+
+#banner2 .bannerContent {
+	display: flex;
+	position: absolute;
+	top: 25%;
+}
+
+#banner3 .bannerContent {
+	display: flex;
+	position: absolute;
+	top: 25%;
+}
+
+#banner3 .bannerImage {
+	background: #fdde0d;
+}
+
+#banner3 .bannerImage img {
+	position: relative;
+	top: -18%;
+	left: -9%;
+}
+
+.bannerIcon {
+	width: 56px;
+	height: 56px;
+	margin-right: 24px;
+}
+
+.bannerIcon img {
+	width: 100%;
+}
+
+.bannerText {
+	color: #ffffff;
+	width: 536px;
+}
+
+.bannerText h2 {
+	font-family: 'NokiaHeading', sans-serif;
+	font-weight: 700;
+	font-size: 56px;
+	margin: 0px;
+}
+
+.bannerText p {
+	font-family: 'NokiaText', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	margin: 16px 0px 40px 0px;
+}
+
+.underline {
+	width: 128px;
+	height: 2px;
+	background: #ffffff;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #001135;
+
+}
+
+/* AlexM */
+.phoneDetailsTitle {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.phoneDetailsTitleText {
+	position: relative;
+}
+
+.phoneDetailsOuterDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.phoneDetailsImageDiv {
+	width: 50%;
+	max-height: 800px;
+}
+
+/* .phoneDetailsImage {
+  width: 100%;
+  overflow: hidden;
+  padding: 10%;
+  margin: auto;
+  display: block;
+} */
+
+.phoneDetailsImage {
+	width: 100%;
+	/* overflow: hidden; */
+	padding-top: 5%;
+	padding-bottom: 5%;
+	/* margin: auto; */
+	/* display: block; */
+	object-fit: contain;
+	max-height: 90%;
+}
+
+.phoneDetailsDetailsInner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* height: 100%; */
+	width: 40%;
+	padding-right:10%
+}
+
+.buyButton {
+	margin: 5%;
+	width: 10%;
+	height: 5%;
+	align-self: center;
+	background-color: black;
+	color: white;
+}
+
+.batteryImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cameraImage {
+	width: 72px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fourGImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.phoneFeature {
+	padding: 2%;
+}
